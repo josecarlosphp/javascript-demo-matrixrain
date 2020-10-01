@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>JavascriptMatrixz</title>
+<script type="text/javascript" src="js/Matrix.class.js"></script>
+</head>
+<body>
+<div id="matrix"></div>
+<script type="text/javascript" src="getJavascriptMatrix.php" ></script>
+<script type="text/javascript">
+//<![CDATA[
+var matrix = new Matrix('matrix');
+matrix.SetSize(40,20,16);
+matrix.SetWormLengthRange(1,16);
+matrix.SetTiming(64,0,16);
+matrix.Run();
+matrix.ShowForm();
+//]]>
+</script>
+</body>
+</html>
